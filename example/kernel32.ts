@@ -1,4 +1,4 @@
-import Kernel32 from '../structs/Kernel32';
+import Kernel32 from 'bun-kernel32';
 
 // Preload the symbols we'll need once...
 const start = performance.now();
