@@ -23,7 +23,7 @@
     "url": "git://github.com/obscuritysrl/bun-kernel32.git"
   },
   "type": "module",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "./index.ts",
   "keywords": [
     "bun",
@@ -37,6 +37,7 @@
   ],
   "files": [
     "index.ts",
+    "runtime/*.ts",
     "structs/*.ts",
     "types/*.ts",
     "README.md"
